@@ -4,9 +4,8 @@ import httpx
 from fastapi import Depends
 
 from app.clients import BotClient, SMTPClient
-from app.services import HealthcheckService, NotifyService
-
 from app.core.settings import settings
+from app.services import HealthcheckService, NotifyService
 
 
 async def get_async_client() -> httpx.AsyncClient:
