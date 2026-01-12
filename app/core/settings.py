@@ -15,7 +15,7 @@ class MailSettings(BaseModel):
 
 class FastAPISettings(BaseModel):
     title: str = "Notify Service"
-    version: str = "0.0.0"
+    version: str = "1.0.0"
     docs: str | None = "/docs"
     redoc: str | None = "/redoc"
     openapi: str | None = "/openapi.json"
